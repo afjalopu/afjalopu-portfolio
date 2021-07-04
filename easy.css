@@ -7,7 +7,6 @@
 body
 {
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
 }
 h1
 {
@@ -17,9 +16,11 @@ h1 span
 {
     color: rgb(255, 0, 179);
 }
-section
+section 
 {
     display: flex;
+    margin-bottom: 100px;
+    height: 75%;
 }
 .half-width
 {
@@ -48,4 +49,11 @@ section
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     padding: 20px 20px;
+}
+
+.big-dream
+{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
